@@ -1,2 +1,2 @@
 # Indian-General-Elections-2024-SQL
-![Logo](https://github.com/Speardrex/Indian-General-Elections-2024-SQL/blob/main/INDIA-HEADS-TO-THE-POLLS-1.jpg)
+![Logo](https://github.com/Speardrex/Indian-General-Elections-2024-SQL/blob/main/Screenshot%202025-08-12%20224046.png)
