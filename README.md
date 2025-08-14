@@ -22,22 +22,23 @@ The project uses five main tables:
    - `% of Votes`: Percentage of votes
    - `Constituency ID`: Unique identifier for each constituency.
 
-3. **products**: Details about Apple products.
-   - `product_id`: Unique identifier for each product.
-   - `product_name`: Name of the product.
-   - `category_id`: References the category table.
-   - `launch_date`: Date when the product was launched.
-   - `price`: Price of the product.
+3. **Statewise Results**: Details about state results.
+   - `Constituency`: Unique identifier for each product.
+   - `Const. No.`: Name of the product.
+   - `Parliament Constituency`: References the category table.
+   - `Leading Candidate`: Date when the product was launched.
+   - `Trailing Candidate`: Price of the product.
+   - `Margin`:
+   - `Status`:
+   - `State ID`:
+   - `State`:
 
-4. **sales**: Stores sales transactions.
-   - `sale_id`: Unique identifier for each sale.
-   - `sale_date`: Date of the sale.
-   - `store_id`: References the store table.
-   - `product_id`: References the product table.
-   - `quantity`: Number of units sold.
+4. **Partywise Results**: Stores sales transactions.
+   - `Party`: Unique identifier for each sale.
+   - `Won`: Date of the sale.
+   - `Party ID`: References the store table.
 
-5. **warranty**: Contains information about warranty claims.
-   - `claim_id`: Unique identifier for each warranty claim.
-   - `claim_date`: Date the claim was made.
-   - `sale_id`: References the sales table.
-   - `repair_status`: Status of the warranty claim (e.g., Paid Repaired, Warranty Void).
+5. **States**: Contains information about warranty claims.
+   - `State ID`: Unique identifier for each warranty claim.
+   - `State`: Date the claim was made.
+
