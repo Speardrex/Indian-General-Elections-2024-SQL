@@ -4,11 +4,14 @@
 
 The project uses five main tables:
 
-1. **stores**: Contains information about Apple retail stores.
-   - `store_id`: Unique identifier for each store.
-   - `store_name`: Name of the store.
-   - `city`: City where the store is located.
-   - `country`: Country of the store.
+1. **Constituencywise Results**: Contains information about constituencywise results.
+   - `Parliament Constituency`: Unique identifier for each constituency.
+   - `Constituency Name`: Name of the Constituency.
+   - `Winning Candidate`: Person who got elected.
+   - `Total Votes`: Number of votes gained.
+   - `Margin`: Won by the number of votes.
+   - `Constituency ID`: Unique identifier for each constituency.
+   - `Party ID`: Unique identifier for each party.
 
 2. **category**: Holds product category information.
    - `category_id`: Unique identifier for each product category.
