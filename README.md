@@ -13,9 +13,14 @@ The project uses five main tables:
    - `Constituency ID`: Unique identifier for each constituency.
    - `Party ID`: Unique identifier for each party.
 
-2. **category**: Holds product category information.
-   - `category_id`: Unique identifier for each product category.
-   - `category_name`: Name of the category.
+2. **Constituencywise Details**: Detail information on candidate, votes, percentage of votes.
+   - `Candidate`: A candidate is ultimately an applicant for a position.
+   - `Party`: Name of the party.
+   - `EVM Votes`:Electronic Voting Machine votes.
+   - `Postal Votes`: Votes by physically attending.
+   - `Total Votes`: Sum of EVM & Postal votes.
+   - `% of Votes`: Percentage of votes
+   - `Constituency ID`: Unique identifier for each constituency.
 
 3. **products**: Details about Apple products.
    - `product_id`: Unique identifier for each product.
