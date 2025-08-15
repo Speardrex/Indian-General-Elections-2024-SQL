@@ -5,7 +5,7 @@
 The project uses five main tables:
 
 1. **Constituencywise Results**: Contains information about constituencywise results.
-   - `Parliament Constituency`: Unique identifier for each constituency.
+   - `Parliament Constituency`: name and the number together of each constituency.
    - `Constituency Name`: Name of the Constituency.
    - `Winning Candidate`: Person who got elected.
    - `Total Votes`: Number of votes gained.
@@ -23,22 +23,22 @@ The project uses five main tables:
    - `Constituency ID`: Unique identifier for each constituency.
 
 3. **Statewise Results**: Details about state results.
-   - `Constituency`: Unique identifier for each product.
-   - `Const. No.`: Name of the product.
-   - `Parliament Constituency`: References the category table.
-   - `Leading Candidate`: Date when the product was launched.
-   - `Trailing Candidate`: Price of the product.
-   - `Margin`:
-   - `Status`:
-   - `State ID`:
-   - `State`:
+   - `Constituency`: Name of the Constituency.
+   - `Const. No.`: Number for each constituency.
+   - `Parliament Constituency`: name and the number together of each constituency.
+   - `Leading Candidate`: A leading candidate is the person who is ahead in votes.
+   - `Trailing Candidate`: A trailing candidate is a person who is behind in votes.
+   - `Margin`: Indicates how much one candidate is ahead or behind another.
+   - `Status`: Whether votes are still being counted, certified, or contested.
+   - `State ID`: Unique identifier for each state.
+   - `State`: Name of the state.
 
-4. **Partywise Results**: Stores sales transactions.
-   - `Party`: Unique identifier for each sale.
-   - `Won`: Date of the sale.
-   - `Party ID`: References the store table.
+4. **Partywise Results**: Stores result depending on parties.
+   - `Party`: Name of the party.
+   - `Won`: Number of seats won.
+   - `Party ID`: Unique identifier for each party.
 
-5. **States**: Contains information about warranty claims.
-   - `State ID`: Unique identifier for each warranty claim.
-   - `State`: Date the claim was made.
+5. **States**: Contains information about state.
+   - `State ID`: Unique identifier for each state.
+   - `State`: Name of the state.
 
