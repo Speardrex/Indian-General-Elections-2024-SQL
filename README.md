@@ -1,5 +1,6 @@
 # ![Logo](https://github.com/Speardrex/Indian-General-Elections-2024-SQL/blob/main/Screenshot%202025-08-12%20224046.png)  **Indian General Elections 2024 SQL Project**
 ## Project Overview
+The Indian General Election, conducted by the Election Commission of India (ECI), is the world’s largest democratic exercise, spanning 543 parliamentary constituencies to elect members of the Lok Sabha (House of the People). This project aims to design and implement a SQL-based database system to store, manage, and analyze data from the Indian General Elections. The system will enable structured querying of election results, voter demographics, and political party performance
 ## Entity Relationship Diagram (ERD)
 ![ERD](https://github.com/Speardrex/Indian-General-Elections-2024-SQL/blob/main/Model%20databases.png)
 
