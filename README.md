@@ -47,3 +47,16 @@ The project uses five main tables:
    - `State ID`: Unique identifier for each state.
    - `State`: Name of the state.
 
+## Objectives
+The project is split into two tiers of questions to test SQL skills of increasing complexity:
+### Intermediate
+1.Total Seats
+2.What are the total number of seats available for election in each state?
+3.Total seats won BY NDA Alliance
+4.Seats Won by NDA Alliance Parties
+5.Total Seats Won by I.N.D.I.A. Allianz
+6.Seats Won by I.N.D.I.A Alliance Parties
+7.Adding a new column field in the table partywise_results to get the party allianz as NDA or I.N.D.I.A
+8.Add party alliance as NDA Allianz
+9.Add party alliance as I.N.D.I.A Allianz
+10.Add other party alliance as Other.
